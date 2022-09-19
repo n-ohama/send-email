@@ -21,7 +21,8 @@ const App = () => {
     if (!userId || !serviceId || !templateId) return;
     init(userId);
     const sendItem = {
-      to_name: inputName,
+      to_name: "Nagatomo",
+      from_name: inputName,
       email: inputEmail,
       content: inputContent,
     };
